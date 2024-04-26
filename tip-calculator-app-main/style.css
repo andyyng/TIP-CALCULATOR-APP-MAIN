@@ -1,0 +1,176 @@
+body{
+    background-color: rgb(181, 225, 225);
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+.title{
+    color: rgb(43, 98, 87);
+    text-align: center;
+}
+.title p{
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.calculator{
+    margin-left: 10%;
+    margin-right: 10%;
+    background: hsl(189, 41%, 97%);
+    border-radius: 25px;
+    display: flex;
+    
+}
+.left{
+    flex: 1;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.right{
+    flex: 1;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+}
+.r-display{
+    margin-top: 10%;
+    
+}
+.r-title{
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 5%;
+    color: rgb(243, 240, 240);
+    width: 25%;
+}
+.r-title p{
+    color: hsl(186, 14%, 43%);
+    margin-top: 2%;
+    font-size: small;
+}
+.r-value{
+    display: inline-block;
+    margin-left: 30%;
+    font-size: 300%;
+    color: hsl(172, 67%, 45%);
+}
+.r-reset{
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.r-reset button{
+    width: 80%;
+    height: 60px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-family: "Space Mono", monospace;
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(183, 100%, 15%);
+    background-color: rgb(181, 225, 225);
+    border: none;
+    border-radius: 5px;
+}
+.r-reset button:hover{
+    background-color:hsl(183, 100%, 15%);
+    color: rgb(181, 225, 225);
+    cursor: pointer;
+}
+.l-bill{
+    color: hsl(186, 14%, 43%);
+    margin-left: 12%;
+    
+}
+.l-bill-container{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+.l-bill-container img {
+    position: absolute;
+    top: 50%;
+    left: 5px; 
+    transform: translateY(-50%);
+    height: auto; /* Maintain aspect ratio */
+  }
+.l-bill-container input{
+    margin-right: 5%;
+    text-align: right;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border-color: hsl(172, 67%, 45%);
+    font-family: "Space Mono", monospace;
+    font-weight: 1000;
+    font-size: 25px;
+    color: hsl(183, 100%, 15%);
+}
+.l-bill-container input:hover{
+    background-color: rgb(181, 225, 225);
+    cursor: pointer;
+}
+.l-tip{
+    margin-top: 10%;
+    color: hsl(186, 14%, 43%);
+    margin-left: 12%;   
+}
+.tip-options{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    position: relative;
+    
+}
+.tip-options .preset{
+    width: 88%;
+    height: 50px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: "Space Mono", monospace;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(243, 240, 240);
+    background-color: hsl(183, 100%, 15%);
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 12%;
+}
+.tip-options .preset:hover{
+    background-color: rgb(181, 225, 225);
+    color: hsl(183, 100%, 15%);
+    cursor: pointer;
+    
+}
+
+.custom-input{
+    text-align: center;
+    margin-top: 5px;
+    height:87%;
+    width: 85%;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(181, 225, 225);
+    color: hsl(183, 100%, 15%);
+    font-family: "Space Mono", monospace;
+    font-size: 20px;
+    font-weight: 700;
+}
+#hide{
+    display: inline-block;
+    float: right;
+    color: rgb(221, 47, 47);
+}
+#numberPeople{  
+    display: inline-block;
+}
+#people{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
