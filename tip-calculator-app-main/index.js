@@ -61,66 +61,7 @@ tip.addEventListener("blur", function() {
     tip.style.textAlign = "center";
   });
 
-/*tip5.addEventListener("click", function() {
-    var tips =[tip5, tip10, tip15, tip25, tip50];
-    tip5.style.backgroundColor = "rgb(181, 225, 225)";
-    tip5.style.color = "hsl(183, 100%, 15%)";
-    tipPercent = 0.05;
-    tips.splice(tips.indexOf(tip5), 1);
-    for(var i= 0; i<tips.length; i++){
-        tips[i].style.backgroundColor ="hsl(183, 100%, 15%)";
-        tips[i].style.color ="rgb(181, 225, 225)";
-    }
-    calculateTip();
-});
-tip10.addEventListener("click", function() {
-    var tips =[tip5, tip10, tip15, tip25, tip50];
-    tip10.style.backgroundColor = "rgb(181, 225, 225)";
-    tip10.style.color = "hsl(183, 100%, 15%)";
-    tipPercent = 0.1;
-    tips.splice(tips.indexOf(tip10), 1);
-    for(var i= 0; i<tips.length; i++){
-        tips[i].style.backgroundColor ="hsl(183, 100%, 15%)";
-        tips[i].style.color ="rgb(181, 225, 225)";
-    }
-    calculateTip();
-});
-tip15.addEventListener("click", function() {
-    var tips =[tip5, tip10, tip15, tip25, tip50];
-    tip15.style.backgroundColor = "rgb(181, 225, 225)";
-    tip15.style.color = "hsl(183, 100%, 15%)";
-    tipPercent = 0.15;
-    tips.splice(tips.indexOf(tip15), 1);
-    for(var i= 0; i<tips.length; i++){
-        tips[i].style.backgroundColor ="hsl(183, 100%, 15%)";
-        tips[i].style.color ="rgb(181, 225, 225)";
-    }
-    calculateTip();
-});
-tip25.addEventListener("click", function() {
-    var tips =[tip5, tip10, tip15, tip25, tip50];
-    tip25.style.backgroundColor = "rgb(181, 225, 225)";
-    tip25.style.color = "hsl(183, 100%, 15%)";
-    tipPercent = 0.25;
-    tips.splice(tips.indexOf(tip25), 1);
-    for(var i= 0; i<tips.length; i++){
-        tips[i].style.backgroundColor ="hsl(183, 100%, 15%)";
-        tips[i].style.color ="rgb(181, 225, 225)";
-    }
-    calculateTip();
-});
-tip50.addEventListener("click", function() {
-    var tips =[tip5, tip10, tip15, tip25, tip50];
-    tip50.style.backgroundColor = "rgb(181, 225, 225)";
-    tip50.style.color = "hsl(183, 100%, 15%)";
-    tipPercent = 0.5;
-    tips.splice(tips.indexOf(tip50), 1);
-    for(var i= 0; i<tips.length; i++){
-        tips[i].style.backgroundColor ="hsl(183, 100%, 15%)";
-        tips[i].style.color ="rgb(181, 225, 225)";
-    }
-    calculateTip();
-});*/
+
 const collections = document.querySelectorAll(".preset");
 collections.forEach(function(presettip){
     presettip.addEventListener("click", function(event){
